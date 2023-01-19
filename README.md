@@ -3,12 +3,12 @@
 <div align="center">
  <h1>Stats preview card component</h1>
  <h3>
-    <a href="https://stellar-kheer-97b827.netlify.app/">
+    <a href="https://rvivenzio.github.io/stats-preview-card-component/">
       Live
     </a>
     <span>&nbsp;|&nbsp;</span>
     <!-- Frontend Mentor Live solution -->
-    <a href="https://www.frontendmentor.io/solutions/order-summary-component-cZJ_qjbSyp">
+    <a href="https://www.frontendmentor.io/solutions/stats-preview-card-component-nb2_Ac3LM9">
       Solution
     </a>
     <span>&nbsp;|&nbsp;</span>
@@ -63,7 +63,7 @@ The designs were created to the following widths:
 ![](images/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [https://stellar-kheer-97b827.netlify.app/](https://stellar-kheer-97b827.netlify.app/)
+- Live Site URL: [https://rvivenzio.github.io/stats-preview-card-component/](https://rvivenzio.github.io/stats-preview-card-component/)
 
 ### Built with
 
