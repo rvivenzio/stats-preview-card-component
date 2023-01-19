@@ -1,0 +1,123 @@
+:root {
+    
+    /* Tipografía */
+    --principal: 'Inter', sans-serif;
+    --secundaria: 'Lexend Deca', sans-serif;
+    
+    /* Colors */
+    --Very_dark_blue:hsl(233, 47%, 7%);
+    --Dark_desaturated_blue:hsl(244, 38%, 16%);
+    --Soft_violet:hsl(277, 64%, 61%);
+    --White:hsl(0, 0%, 100%);
+    --Slightly_transparent_white: hsla(0, 0%, 100%, 0.75);
+    --Slightly_transparent_white_v2: hsla(0, 0%, 100%, 0.6);
+
+
+    /* Tamaño */
+    --text: 1.5rem;
+    --text-description: 1.5rem;
+    --title: 2.8rem;
+
+ 
+
+  }
+ 
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 62.50%;
+  }
+
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: var(--principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Very_dark_blue);
+  }
+
+  main {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: var(--Dark_desaturated_blue);
+  }
+
+  .card__img-container {
+    width: 100%;
+    min-height: 20rem;
+    position: relative;
+    background-image: url('../images/image-header-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+       
+    
+  }
+
+  .card__img-container::after {
+    width: 100%;
+	  content:'';
+	  position: absolute;
+    top: 0;
+    bottom: 0;
+	  left: 0;
+	  right: 0;
+    background-color: hsla(277, 51%, 40%, 0.65);
+    }
+
+    .card__title {
+      color: var(--White);
+      padding: 3rem 2rem .8rem 2rem;
+      text-align: center;
+      font-size: var(--title);
+    }
+
+    .card__tittle--color {
+      color: var(--Soft_violet);
+    }
+
+    .card__text {
+      color: var(--Slightly_transparent_white);
+      font-size: var(--text-description);
+      padding: 0.8rem 3rem 3rem 3rem;
+      text-align: center;
+      line-height: 2.5rem;
+    }
+
+    .card__goals-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      line-height: 2.5rem;
+      color: white;
+    }
+
+    .card__goals:nth-child(odd) {
+      font-size: var(--title);
+      
+    }
+
+    .card__goals:nth-child(even) {
+      text-transform: uppercase;
+      padding-bottom: 2rem;
+      font-family: var(--secundaria);
+      letter-spacing: 0.2rem;
+    }
+
+
+
